@@ -10,5 +10,35 @@
 <em>farklı bir açıdan</em>
 <mark>Bu kelimeyi unutma!</mark>
 <del>25.000 TL</del>
+<img src="kedi.jpg" alt="Uyuyan sevimli bir kedi" width="300">
+<a href="https://www.google.com" target="_blank">Google'ı Yeni Sekmede Aç</a>
+<ul><li>Yumurta</li></ul> <ol><li>Tavada pişirin.</li></ol> ```
+* **`<ul>`**: Maddelerin sırasının önemli olmadığı "bullet" (nokta) işaretli listelerdir[cite: 1155, 1156].
+* **`<ol>`**: Adımların önemli olduğu (1, 2, 3...) numaralı listelerdir[cite: 1157, 1159].
+* **`<li>`**: Her bir liste öğesini tanımlayan etikettir[cite: 1160, 1161].
+
+### Tablo Yapısı
+```html
+<table border="1">
+  <tr>
+    <th>Öğrenci Adı</th>
+    <td>Ali</td>
+  </tr>
+</table>
+<label for="ad">Adınız:</label>
+<input type="text" id="ad" placeholder="Adınızı girin" required>
+<input type="checkbox" id="onay"> <input type="radio" name="cinsiyet"> ```
+* **`checkbox`**: Kullanıcının birden fazla seçeneği işaretlemesine izin verir[cite: 1277].
+* **`radio`**: Kullanıcının bir grup içinden sadece bir seçeneği işaretlemesine izin verir (aynı `name` değerine sahip olmalıdırlar)[cite: 1279, 1282].
+
+---
+
+## 6. Düzen ve Modern HTML5 Özellikleri
+Sayfanın mimarisini ve modern medya desteğini sağlayan kodlardır.
+
+### Gruplama: Div ve Span
+```html
+<div style="background-color: lightblue;">Blok Eleman</div>
+<span style="background-color: yellow;">Satır İçi</span>
 </body>
 </html>
