@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayıt Ol</title>
+</head>
+<body>
+    <h1>Yazılım Kulübü Kayıt Formu</h1>
+    
+    <form>
+        <label for="ad">Adınız:</label><br>
+        <input type="text" id="ad" placeholder="Adınızı girin" required>
+        <br><br>
+
+        <label for="mail">E-posta:</label><br>
+        <input type="email" id="mail" placeholder="ornek@mail.com" required>
+        <br><br>
+
+        <label for="sifre">Şifre:</label><br>
+        <input type="password" id="sifre" required>
+        <br><br>
+
+        <label for="dtarih">Doğum Tarihi:</label><br>
+        <input type="date" id="dtarih">
+        <br><br>
+
+        <label for="bolum">Bölümünüz:</label><br>
+        <select id="bolum">
+            <option value="bilgisayar">Bilgisayar Müh.</option>
+            <option value="yazilim">Yazılım Müh.</option>
+            <option value="endustri">Endüstri Müh.</option>
+        </select>
+        <br><br>
+
+        <label>Cinsiyet:</label><br>
+        <input type="radio" id="e" name="cinsiyet" value="erkek"> 
+        <label for="e">Erkek</label>
+        <input type="radio" id="k" name="cinsiyet" value="kadin"> 
+        <label for="k">Kadın</label>
+        <br><br>
+
+        <label for="mesaj">Kendinizi tanıtın:</label><br>
+        <textarea id="mesaj" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="onay" required>
+        <label for="onay">Kuralları okudum, kabul ediyorum.</label>
+        <br><br>
+
+        <button type="submit">Kayıt Ol</button>
+    </form>
+</body>
+</html>
