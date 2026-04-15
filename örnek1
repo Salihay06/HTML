@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>   Page Title   </title>
+</head>
+<body>
+
+<h1> My First Heading </h1>
+<p> My first paragraph </p>
+
+
+<p> 
+Bu normal bir cümledir ama <strong> burası çok çnemli </strong>  
+Bazen olaylara <em> farklı bir acıdan </em> bakmak gerekir.
+<mark> Bu kelimeyi unutma!</mark>
+</p>
+
+
+<img src= "kedi.jpg" alt="uyuyan sevimli bir kedi" width="300">
+
+</body>
+</html>
