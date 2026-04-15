@@ -14,6 +14,8 @@
 alt="Gümüş renkli modern laptop" 
 width="400">
 
+<a href="https://www.google.com" target="_blank">Googleye git </a>
+
 <p>
 Bu bilgisayar ile oyun oynamak <strong> çok keyifli.</strong>
 İnce tasarımı sayesinde <em>her yere taşıyabilirsiniz.</em>
@@ -23,6 +25,70 @@ Bu bilgisayar ile oyun oynamak <strong> çok keyifli.</strong>
 Eski Fiyat: <del>25000 TL</del> <br> Yeni Fiyat: <mark> 199999 TL </mark>
 
 <p> <i> Stoklarla sınırlıdır! </i> </p>
+
+<h3>Menemen Malzemeleri(Sırasız)</h3>
+<ul>
+    <li> 2 adet yumurta </li>
+    <li> 3 adet domates </li>
+    <li> 1 adet biber </li>
+</ul>
+
+<h3> Yapılışı (Sıralı)</h3>
+<ol>
+   <li> 2 adet yumurta </li>
+   <li> 3 adet domates </li>
+   <li> 1 adet biber </li>
+</ol>
+
+
+<table border="1"> 
+<tr>
+  <th> Öğrenci Adı </th>
+  <th> Aldığı Not </th>
+</tr>
+<tr>
+  <td> Ali </td>
+  <td> 90  </td>
+</tr>
+<tr>
+  <td> Ayşe </td>
+  <td> 97  </td>
+</tr>
+</table>
+
+
+<input type="text" placeholder="Adınız"">
+<input type="password placeholder="Şifreniz">
+
+
+<label for"kullanici_adi"> Kullanıcı Adı:</label>
+<input type="text" id="kullanici_Adi" name="kullanici_adi">
+
+
+<p>Hobileriniz (Checkbox):</p>
+<input type="checkbox" id="spor"> <label for="spor">Spor</label>
+<input type="checkbox" id="spor"> <label for="spor">Spor</label>
+
+<p>Cinsiyet:</p>
+<input type="radio" id="kadın" name="cinsiyet"> <label for="kadın">kadın</label>
+<input type="radio" id="erkek" name="cinsiyet"> <label for="erkek">erkek</label>
+
+
+<p> Aşağıda 2 tane div var </p>
+
+<div style="background-color:lightblue;">
+    Ben birinci kutuyum  </div>
+
+<div style="background-color:lightblue;">
+    Ben ikinci kutuyum  </div>
+
+<br>
+
+<p> Aşağıda 2 tane span var </p>
+<p>
+    Merhaba ben <span style="background-color: yellow;" > ÖNEMLİ </span>
+</p>
+
 
 </body>
 </html>
