@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+<meta charset="UTF-8">
+<title> TeknoMarket - Ürün Detayı  </title>
+</head>
+
+<body>
+
+<h1<Süper Laptop X500 </h1>
+
+<img src="https://dasgagahasda" 
+alt="Gümüş renkli modern laptop" 
+width="400">
+
+<p>
+Bu bilgisayar ile oyun oynamak <strong> çok keyifli.</strong>
+İnce tasarımı sayesinde <em>her yere taşıyabilirsiniz.</em>
+</p>
+
+<p>
+Eski Fiyat: <del>25000 TL</del> <br> Yeni Fiyat: <mark> 199999 TL </mark>
+
+<p> <i> Stoklarla sınırlıdır! </i> </p>
+
+</body>
+</html>
